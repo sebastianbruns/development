@@ -1,9 +1,10 @@
 #
 # [app.py]
 #
-
-for i in [1,2,3]:
+import time
+for i in range(1,100):
     print(str(i) + " do it")
+    time.sleep(1)
 
 #
 # End of file
